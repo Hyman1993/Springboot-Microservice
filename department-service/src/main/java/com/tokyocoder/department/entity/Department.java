@@ -3,11 +3,11 @@ package com.tokyocoder.department.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 @Data
@@ -15,7 +15,6 @@ import javax.persistence.GenerationType;
 @NoArgsConstructor
 public class Department {
 
-    @javax.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private  Long departmentId;
