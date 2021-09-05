@@ -5,3 +5,4 @@
   Hystrix
   Hystrix-dashboard： 显示监控各微服务
   cloud-config-server: 用了配置注册中心的地址
+  zipkin:
