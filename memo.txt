@@ -1,7 +1,7 @@
 1.结构
   微服务1，微服务2，微服务3...(配置各微服务名，注册服务到eureka,微服务间使用RestTemplate来互相调用服务)
   服务注册与发现中心(eureka)
-  API gateway
+  API gateway:配置（映射）访问各微服务的端口和地址，定义访问超时，失败等的处理
   Hystrix
   Hystrix-dashboard： 显示监控各微服务
   cloud-config-server: 用了配置注册中心的地址
